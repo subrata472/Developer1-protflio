@@ -1,6 +1,74 @@
+body{
+    .protest-strike-regular {
+  font-family: "Protest Strike", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+margin: 1%;
+}
 h1{
     font-size: 40px;
 }
+h2{
+    font-size: 50px;
+}
 .orange-color{
     color: rgb(237, 163, 25);
+}
+.flexible-container{
+    display: flex;
+    margin-bottom: 40px;
+}
+.half-width{
+    width: 50%;
+    padding-left: 10%;
+}
+.half-width img {
+    width: 60%;
+    margin-top: 40px;
+}
+.top-banner{
+    background-image: url(banner.jpeg);
+    background-repeat: no-repeat;
+    padding-left: 0%;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange,tomato);
+    color: aqua;
+    font-weight: 700;
+    padding: 6px 20px;
+    border-radius: 3%;
+}
+.dream-big{
+    background-image: url(banner.jpeg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.experince-area{
+    background-image: url(banner.jpeg);
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+.experince-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    box-shadow: 4px 4px 40px gray;
+
+}
+#full-stack-developer{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,navy);
+    border-image-slice: 1;
+} 
+#baby-stak-developer{
+    border-left: 7px solid;
+    border-image: linear-gradient(red,yellow);
+    border-image-slice: 2;
+}
+footer p{
+    text-align: center;
 }
